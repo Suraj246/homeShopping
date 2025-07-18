@@ -1,0 +1,101 @@
+/* .right {
+    display: grid;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.right form :first-child {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.right form input {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 0 1rem;
+    line-height: 2em;
+}
+
+.bill-info {
+    display: flex;
+    gap: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bill-info .bill-p {
+    width: 100%;
+    display: grid;
+}
+
+.bill-m {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    font-weight: normal;
+    align-items: center;
+} */
+
+.scroll {
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    /* border: solid; */
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    /* text-align: center; */
+    padding-left: 10px;
+}
+
+header {
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.user_profile_click {
+    padding: 10px 15px;
+}
+
+.user_profile_navLink {
+    padding: 10px 15px;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.user_profile_navLink:hover {
+    background-color: #f0f0f0;
+}
+
+
+.product_search_input {
+    padding: 8px;
+}
+
+.login_form input {
+    padding: 20px 10px;
+    font-size: 14px;
+    height: 46px;
+}
+
+.login_button {
+    padding: 10px 15px;
+
+}
+
+.checkOutCartButton {
+    padding: 10px 15px;
+    background-color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.checkOutCartButton:hover {
+    background-color: #0ecb1d;
+}

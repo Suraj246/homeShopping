@@ -1,0 +1,27 @@
+.product_screen_container {
+    padding: 0 20px;
+}
+
+.product_screen_navigation_button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.product_screen_details {
+    padding: 20px;
+}
+
+.in_stock_text {
+    padding: 10px 20px;
+}
+
+.order_now_button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order_now_button:hover {
+    background-color: #3c4a78;
+}

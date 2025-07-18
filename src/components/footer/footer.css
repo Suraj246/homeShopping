@@ -1,0 +1,12 @@
+.footer_details {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_us_text {
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,32 @@
+.shippingAddressForm {
+    padding: 30px;
+}
+
+.shippingAddressInput {
+    padding: 10px;
+}
+
+.shippingAddressButton {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.checkout-steps>div {
+    border: none;
+    border-top: .3rem solid;
+    color: #c0c0c0;
+    flex: 1;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.checkout-steps>div.active {
+    border-top-color: #f08000;
+    color: #f08000;
+}
+
+@media (max-width: 768px) {
+    .checkout-steps>div {
+        padding: .4rem;
+    }
+}
